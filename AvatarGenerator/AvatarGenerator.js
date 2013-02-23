@@ -24,7 +24,7 @@ function getColorPart() {
     return hex;
 }
 
-function changeBodyColor() {
+function changeBackgroundColor() {
     var red = getColorPart();
     var green = getColorPart();
     var blue = getColorPart();
