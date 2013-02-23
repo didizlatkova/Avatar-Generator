@@ -1,0 +1,41 @@
+﻿div,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+div#wrapper {
+  width: 300px;
+  margin: 0 auto;
+}
+div#wrapper h1 {
+  font-size: 32px;
+  padding: 20px;
+}
+div#wrapper div#content {
+  margin-left: 20px;
+  width: 240px;
+}
+div#wrapper label {
+  margin-left: 60px;
+}
+div#wrapper select {
+  margin-bottom: 20px;
+}
+div#wrapper button {
+  width: 104px;
+  height: 34px;
+  border: none;
+  background-color: transparent;
+  background-image: url('Images/button.png');
+}
+div#wrapper button#start {
+  margin-left: 20px;
+}
+div#wrapper button#color {
+  display: none;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+div#wrapper img#avatar {
+  margin-top: 20px;
+}

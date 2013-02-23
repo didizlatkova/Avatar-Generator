@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Avatar Generator</title>
+    <link rel="stylesheet" href="AvatarGenerator.css" type="text/css" />
+    <script src="AvatarGenerator.js"></script>
+    <link rel="icon" 
+      type="image/png" 
+      href="Images/icon.png" />
+</head>
+<body onload="resetButtons()">    
+    <div id="wrapper">
+        <h1>Avatar Generator</h1>
+        <div id="content">
+            <label for="gender-select">Gender: </label>
+	        <select id="gender-select" onchange="onGenderChange()">							  
+		        <option selected="selected" value="male">Male</option>
+		        <option value="female">Female</option>
+		        <option value="alien">Alien</option>
+	        </select>
+            <button id="start" onclick="startTimer()">Start</button>
+            <button id="stop" onclick="stopTimer()">Stop</button>
+            <img id="avatar" src="Images/avatar.png"/>
+            <button id="color" onclick="changeBodyColor()">Change color</button>           
+        </div>        
+    </div>    
+</body>
+</html>
